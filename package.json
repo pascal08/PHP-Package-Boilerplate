@@ -1,0 +1,13 @@
+{
+  "name": "phpunit-gulp-boilerplate",
+  "version": "1.0.0",
+  "author": "Pascal Lubbers <pascallubbers8@hotmail.com>",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-phpunit": "^0.14.0"
+  },
+  "dependencies": {}
+}
