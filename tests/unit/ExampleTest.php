@@ -1,12 +1,12 @@
 <?php
 
-namespace MyTests\Unit;
+namespace Acme\Example;
 
 class DataTest extends \PHPUnit_Framework_TestCase
 {
 
     public function test_it_works()
     {
-        $this->assertTrue(true);
+        $this->assertEquals('Hello!', Example::sayHello());
     }
 }
