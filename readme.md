@@ -28,7 +28,7 @@ Exclude the following directories:
 More info: [Directories](https://www.jetbrains.com/help/phpstorm/2016.1/directories.html)
 
 Set Include Paths to include the following paths:
-* $PROJECT_ROOT$/vendor
-* $PROJECT_ROOT$/vendor
+* /vendor
+* /node_modules
 
 More info: [Congifuring Include Paths](https://www.jetbrains.com/help/phpstorm/2016.1/configuring-include-paths.html)
