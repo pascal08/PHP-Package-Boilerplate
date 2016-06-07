@@ -6,9 +6,10 @@ php:
 
 before_script:
   - composer self-update
+  - npm install -g gulp
 
 install:
   - composer install
 
 script:
-  - vendor/bin/phpunit
+  - gulp
