@@ -4,12 +4,12 @@ php:
   - hhvm
   - nightly
 
-before_script:
-  - composer self-update
-  - npm install -g gulp
-
 install:
   - composer install
-
+  - npm install
+  
+before_script:
+  - composer self-update
+  
 script:
-  - gulp
+  - gulp tdd
