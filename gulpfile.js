@@ -1,7 +1,6 @@
 var elixir = require('laravel-elixir');
-
-elixir.config.appPath = 'src';
+var path = require('path');
 
 elixir(function (mix) {
-    mix.phpUnit('', 'vendor\\bin\\phpunit --verbose');
+    mix.phpUnit([], path.normalize('vendor/bin/phpunit') + ' --verbose');
 });
