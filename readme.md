@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pascal08/PHP-Package-Boilerplate.svg?branch=master)](https://travis-ci.org/pascal08/PHP-Package-Boilerplate)
+
 # PHP Package Boilerplate
 
 A simple boilerplate for developing PHP packages which is mainly focused on automated TDD. 
