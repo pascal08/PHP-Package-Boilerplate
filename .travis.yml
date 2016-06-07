@@ -6,6 +6,10 @@ php:
 
 install:
   - composer install
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
+  - npm -v
   - npm install -g gulp
   - npm install
   
