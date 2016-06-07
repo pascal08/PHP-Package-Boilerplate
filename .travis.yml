@@ -13,6 +13,11 @@ install:
   - npm install -g gulp
   - npm install
   
+cache:
+  directories:
+    - node_modules
+    - vendor 
+  
 before_script:
   - composer self-update
   
