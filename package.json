@@ -4,13 +4,11 @@
   "author": "Pascal Lubbers <pascallubbers8@hotmail.com>",
   "license": "MIT",
   "scripts": {},
-  "devDependencies": {
+  "engines": {
+    "npm": ">=5.0.0"
+  },
+  "dependencies": {
     "gulp": "^3.9.1",
-    "laravel-elixir": "^5.0.0"
-  },
-  "engines" : { 
-    "npm" : ">=5.0.0" 
-    
-  },
-  "dependencies": {}
+    "laravel-elixir": "^6.0.0-9"
+  }
 }
